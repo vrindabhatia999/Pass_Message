@@ -55,12 +55,12 @@ function generateM(){
 
 
 }
-btn.style.backgroundColor='red';
+btn.style.backgroundColor='yellow';
 btn .style.marginLeft='30%';
 btn.style.marginTop='3%';
 
 
-// d1.style.textAlign='center';
+d1.style.textAlign='center';
 d1.style.marginLeft='25%';
 d1.style.marginRight='25%';
 d1.style.marginTop='2%';
