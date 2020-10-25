@@ -53,4 +53,18 @@ function generateM(){
     var a1=msgs[Math.floor(Math.random()*msgs.length)];
     d1.innerHTML=a1;
 
+
 }
+btn.style.backgroundColor='red';
+btn .style.marginLeft='30%';
+btn.style.marginTop='3%';
+
+
+// d1.style.textAlign='center';
+d1.style.marginLeft='25%';
+d1.style.marginRight='25%';
+d1.style.marginTop='2%';
+d1.style.fontSize='20px';
+d1.style.fontStyle='italic';
+
+d1.style.border='1px solid pink';
