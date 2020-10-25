@@ -28,3 +28,29 @@ function clearfield(){
     text.value=" ";
 }
 
+//custom message generator
+var btn=document.createElement('button');
+btn.innerHTML="Generate custom message";
+var d1=document.createElement('div');
+
+document.body.appendChild(btn);
+document.body.appendChild(d1);
+
+d1.innerHTML="Your Custom msg";
+
+
+const msgs=[ "I will get back to you soon.",
+              "I am in a meeting.",
+              "call me as soon as possible.",
+              "Hi there, hope you are in best of your health"
+
+];
+
+btn.addEventListener("click",generateM);
+
+function generateM(){
+
+    var a1=msgs[Math.floor(Math.random()*msgs.length)];
+    d1.innerHTML=a1;
+
+}
