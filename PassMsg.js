@@ -12,6 +12,21 @@ message.style.backgroundColor="#fec8d8";
 // d1.style.backgroundImage='url(message.svg)';
 d1.classList.add('d1c');
 
+var count=0;
+var c1=document.createElement('div');
+c1.innerHTML="Your message count will be shown here!"
+document.body.appendChild(c1);
+
+//styling c1
+c1.style.marginLeft='31%';
+c1.style.marginRight='27%';
+c1.style.fontSize='19px';
+c1.style.fontWeight='bold';
+c1.style.backgroundColor='#ffdfd3';
+c1.style.textAlign='center';
+c1.style.marginTop='3%';
+
+
 //event listeners
 send.addEventListener('click',deliver);
 
@@ -21,7 +36,15 @@ function deliver(){
     let txt=text.value;
 
     message.innerHTML=txt;
+    count=count+1;
+
+    
+    c1.innerHTML="You have sent:"+" "+ count+" " +"messages";
+
+    
 }
+
+
 
 clear.addEventListener('click',clearfield);
 
