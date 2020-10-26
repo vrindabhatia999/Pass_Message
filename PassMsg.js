@@ -41,8 +41,11 @@ d1.innerHTML="Your Custom msg";
 
 const msgs=[ "I will get back to you soon.",
               "I am in a meeting.",
-              "call me as soon as possible.",
-              "Hi there, hope you are in best of your health"
+              "Call me as soon as possible.",
+              "Hi there, hope you are in best of your health",
+              "Attend your class today, i will be back soon",
+              "Going to the gym",
+              "Be ready for the movie at 6"
 
 ];
 
@@ -55,9 +58,14 @@ function generateM(){
 
 
 }
-btn.style.backgroundColor='yellow';
+
+
+//styling
+btn.style.backgroundColor='#b19cd9';
 btn .style.marginLeft='30%';
 btn.style.marginTop='3%';
+btn .style.fontSize='19px';
+btn.style.fontFamily='monospace';
 
 
 d1.style.textAlign='center';
@@ -66,5 +74,7 @@ d1.style.marginRight='25%';
 d1.style.marginTop='2%';
 d1.style.fontSize='20px';
 d1.style.fontStyle='italic';
+d1.style.fontWeight='bold';
+d1.style.height='50px';
 
-d1.style.border='1px solid pink';
+d1.style.border='2px solid pink';
