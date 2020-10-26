@@ -51,7 +51,12 @@ const msgs=[ "I will get back to you soon.",
               "Going to lunch @ 2pm",
               "Hope you got my email",
               "Make dinner for dad he will be back by 8pm",
-              "Take the dog for a walk at 9"
+              "Take the dog for a walk at 9",
+              "Happy to see you back",
+              "Text me the time of your flight",
+              "Let me know when mom would be back",
+              "Are you free tommorrow??",
+              "Are you free in the afternoon"
 
 ];
 
