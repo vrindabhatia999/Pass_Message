@@ -1,4 +1,4 @@
-document.body.style.backgroundColor='coral';
+document.body.style.backgroundColor='#d291bc';
 
 var send=document.getElementById('send');
 var message=document.getElementById('message');
@@ -8,6 +8,7 @@ var clear=document.getElementById('clear');
 
 var d1=document.querySelector('.d1');
 d1.style.backgroundColor='white';
+message.style.backgroundColor="#fec8d8";
 //event listeners
 send.addEventListener('click',deliver);
 
@@ -45,7 +46,9 @@ const msgs=[ "I will get back to you soon.",
               "Hi there, hope you are in best of your health",
               "Attend your class today, i will be back soon",
               "Going to the gym",
-              "Be ready for the movie at 6"
+              "Be ready for the movie at 6",
+              "Bread and Jam are in the fridge",
+              "Going to lunch @ 2pm",
 
 ];
 
