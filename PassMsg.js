@@ -49,6 +49,9 @@ const msgs=[ "I will get back to you soon.",
               "Be ready for the movie at 6",
               "Bread and Jam are in the fridge",
               "Going to lunch @ 2pm",
+              "Hope you got my email",
+              "Make dinner for dad he will be back by 8pm",
+              "Take the dog for a walk at 9"
 
 ];
 
@@ -79,5 +82,6 @@ d1.style.fontSize='20px';
 d1.style.fontStyle='italic';
 d1.style.fontWeight='bold';
 d1.style.height='50px';
+d1.style.backgroundColor='#ffdfd3';
 
 d1.style.border='2px solid pink';
