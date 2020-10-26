@@ -9,6 +9,9 @@ var clear=document.getElementById('clear');
 var d1=document.querySelector('.d1');
 d1.style.backgroundColor='white';
 message.style.backgroundColor="#fec8d8";
+// d1.style.backgroundImage='url(message.svg)';
+d1.classList.add('d1c');
+
 //event listeners
 send.addEventListener('click',deliver);
 
