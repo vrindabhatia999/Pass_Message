@@ -59,6 +59,7 @@ function clearfield(){
 var btn=document.createElement('button');
 btn.innerHTML="Generate custom message";
 var d1=document.createElement('div');
+btn.style.textShadow='1px 1px 1px purple';
 
 document.body.appendChild(btn);
 document.body.appendChild(d1);
@@ -82,7 +83,8 @@ const msgs=[ "I will get back to you soon.",
               "Text me the time of your flight",
               "Let me know when mom would be back",
               "Are you free tommorrow??",
-              "Are you free in the afternoon"
+              "Are you free in the afternoon",
+              "Goodafternoon, dont forget to check your mail"
 
 ];
 
