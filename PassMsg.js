@@ -41,8 +41,17 @@ function deliver(){
     
     c1.innerHTML="You have sent:"+" "+ count+" " +"messages";
 
+     
+     
+     
+    
+
     
 }
+
+
+
+ 
 
 
 
@@ -98,6 +107,8 @@ function generateM(){
 
 
 }
+
+setTimeout("alert('Max Limits')",10000);
 
 
 //styling
