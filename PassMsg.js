@@ -108,7 +108,7 @@ function generateM(){
 
 }
 
-setTimeout("alert('Max Limits')",10000);
+setTimeout("alert('Max Limits,hence paused')",10000);
 
 
 //styling
