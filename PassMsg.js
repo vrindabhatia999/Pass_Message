@@ -84,7 +84,8 @@ const msgs=[ "I will get back to you soon.",
               "Let me know when mom would be back",
               "Are you free tommorrow??",
               "Are you free in the afternoon",
-              "Goodafternoon, dont forget to check your mail"
+              "Goodafternoon, dont forget to check your mail",
+              "You have an appontment fixed at 7pm"
 
 ];
 
