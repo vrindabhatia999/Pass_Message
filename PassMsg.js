@@ -118,4 +118,4 @@ d1.style.fontWeight='bold';
 d1.style.height='50px';
 d1.style.backgroundColor='#ffdfd3';
 
-d1.style.border='2px solid pink';
+d1.style.border='2px dotted pink';
