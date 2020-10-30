@@ -48,7 +48,7 @@ if(counter){
 }
 else{
     send.disabled=true;
-    alert("wait for 5 seconds:");
+    alert("wait for 5 seconds,number of msgs sent exceeded:");
     setTimeout(() => {counter=true,send.disabled=false}, 5000);
 }
 
