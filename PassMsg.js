@@ -100,7 +100,9 @@ btn.addEventListener("click",generateM);
 function generateM(){
     var a1=msgs[Math.floor(Math.random()*msgs.length)];
     d1.innerHTML=a1;
+    message.innerHTML=a1;
 }
+
 
  
 
