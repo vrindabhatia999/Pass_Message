@@ -1,6 +1,5 @@
 document.body.style.backgroundColor='#d291bc';
-
-var send=document.getElementById('send');
+const send=document.getElementById('send');
 var message=document.getElementById('message');
 var text=document.getElementById('text');
     
@@ -27,40 +26,38 @@ c1.style.textAlign='center';
 c1.style.marginTop='3%';
 
 
+//variables
+ var counter=true;
+
+
 //event listeners
 send.addEventListener('click',deliver);
+clear.addEventListener('click',clearfield);
 
 
 function deliver(){
-    
+if(counter){
     let txt=text.value;
-
     message.innerHTML=txt;
     count=count+1;
-
-    
+    if(count==5){
+        counter=false;
+        
+    }
     c1.innerHTML="You have sent:"+" "+ count+" " +"messages";
+}
+else{
+    send.disabled=true;
+    alert("wait for 5 seconds:");
+    setTimeout(() => {counter=true,send.disabled=false}, 5000);
+}
 
-     
-     
-     
-    
-
-    
 }
 
 
 
- 
-
-
-
-clear.addEventListener('click',clearfield);
-
 function clearfield(){
-
     message.innerHTML=" ";
-
     text.value=" ";
 }
 
@@ -97,18 +94,15 @@ const msgs=[ "I will get back to you soon.",
               "You have an appontment fixed at 7pm"
 
 ];
-
 btn.addEventListener("click",generateM);
 
+//functions
 function generateM(){
-
     var a1=msgs[Math.floor(Math.random()*msgs.length)];
     d1.innerHTML=a1;
-
-
 }
 
-setTimeout("alert('Max Limits,hence paused')",10000);
+ 
 
 
 //styling
