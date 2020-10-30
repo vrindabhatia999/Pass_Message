@@ -63,7 +63,7 @@ function clearfield(){
 
 //custom message generator
 var btn=document.createElement('button');
-btn.innerHTML="Generate custom message";
+btn.innerHTML="Send custom message";
 var d1=document.createElement('div');
 btn.style.textShadow='1px 1px 1px purple';
 
@@ -101,6 +101,9 @@ function generateM(){
     var a1=msgs[Math.floor(Math.random()*msgs.length)];
     d1.innerHTML=a1;
     message.innerHTML=a1;
+    count=count+1;
+    c1.innerHTML="You have sent:"+" "+ count+" " +"messages";
+
 }
 
 
