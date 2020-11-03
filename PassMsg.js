@@ -49,7 +49,7 @@ if(counter){
 else{
     send.disabled=true;
     alert("wait for 5 seconds,number of msgs sent exceeded(will appear only after 5 mesages and up):");
-    setTimeout(() => {counter=true,send.disabled=false}, 5000);
+    setTimeout(() => {counter=true,send.disabled=false}, 6000);
 }
 
 }
