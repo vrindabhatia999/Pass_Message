@@ -102,7 +102,7 @@ function generateM(){
     d1.innerHTML=a1;
     message.innerHTML=a1;
     count=count+1;
-    c1.innerHTML="You have sent:"+" "+ count+" " +"messages";
+    c1.innerHTML="<strong>You have sent:</strong>"+" "+ count+" " +"<strong>messages</strong";
 
 }
 
